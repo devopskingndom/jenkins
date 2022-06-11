@@ -1,6 +1,8 @@
 # Deploy Jenkins with kubernetes
-Objets Kubernetes used on this project 
-    Namespace: jenkins-ns
+ Objets Kubernetes used on this project 
+ 
+ Namespace: jenkins-ns
+ 
     ServiceAccount : jenkins-sa
     Deployement : jenkins-deploy, with matchLabels : jenkins-server 
     Service: jenkins-srv
